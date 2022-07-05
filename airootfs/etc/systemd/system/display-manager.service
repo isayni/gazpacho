@@ -12,4 +12,3 @@ Restart=always
 
 [Install]
 Alias=display-manager.service
-
