@@ -33,6 +33,10 @@ util-linux
 wireless_tools
 sudo
 python
+python-pip
+python-psutil
+nodejs
+npm
 
 xorg-server
 sddm
