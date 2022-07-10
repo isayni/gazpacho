@@ -41,7 +41,8 @@ nodejs
 npm
 
 xorg-server
-xorg-xrdb
+xorg-apps
+xclip
 sddm
 pulseaudio
 qtile
@@ -66,6 +67,9 @@ openvpn
 nmap
 neofetch
 rsync
+zenity
+qrencode
+python-mss
 tmux
 git
 vim

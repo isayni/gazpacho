@@ -7,3 +7,9 @@
 [submodule "airootfs/usr/local/share/dmenu"]
 	path = airootfs/usr/local/share/dmenu
 	url = https://github.com/isayni/dmenu
+[submodule "airootfs/usr/local/share/dmenu-scripts"]
+	path = airootfs/usr/local/share/dmenu-scripts
+	url = https://github.com/isayni/dmenu-scripts
+[submodule "airootfs/usr/local/share/shell-scripts"]
+	path = airootfs/usr/local/share/shell-scripts
+	url = https://github.com/isayni/shell-scripts
