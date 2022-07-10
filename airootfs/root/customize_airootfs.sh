@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # utilise the dotfiles
-rm /usr/local/share/dotfiles/.gitignore
+rm /usr/local/share/dotfiles/.gitignore /usr/local/share/dotfiles/.git
 rsync -a /usr/local/share/dotfiles/ /etc/skel
 rsync -a --chown=user:user /usr/local/share/dotfiles/ /home/user
 
