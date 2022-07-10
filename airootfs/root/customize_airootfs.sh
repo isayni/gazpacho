@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# utilise the dotfiles
+rm /usr/local/share/dotfiles/.gitignore
+rsync -a /usr/local/share/dotfiles/ /etc/skel
+rsync -a --chown=user:user /usr/local/share/dotfiles/ /home/user
+
 # enabling sudo for wheel group
 echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
@@ -10,4 +15,4 @@ sudo -u user vim +"execute 'CocInstall -sync ' . join(g:coc_global_extensions, '
 sudo -u user vim +CocUpdateSync +qall
 
 # add user to wireshark group
-usermod -aG user wireshark
+usermod -aG wireshark user
