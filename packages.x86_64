@@ -25,6 +25,7 @@ wpa_supplicant
 
 networkmanager
 dnsmasq
+bind
 iwd
 cryptsetup
 ntfs-3g
@@ -39,6 +40,7 @@ nodejs
 npm
 
 xorg-server
+xorg-xrdb
 sddm
 pulseaudio
 qtile
@@ -55,6 +57,8 @@ sdparm
 man-db
 parted
 gparted
+wget
+curl
 unzip
 unrar
 openvpn
