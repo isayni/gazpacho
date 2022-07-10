@@ -1,4 +1,5 @@
 base
+base-devel
 cloud-init
 hyperv
 linux

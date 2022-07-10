@@ -16,3 +16,6 @@ sudo -u user vim +CocUpdateSync +qall
 
 # add user to wireshark group
 usermod -aG wireshark user
+
+# installing dmenu
+make clean install -C /usr/local/share/dmenu

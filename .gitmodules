@@ -4,3 +4,6 @@
 [submodule "airootfs/usr/local/share/dotfiles"]
 	path = airootfs/usr/local/share/dotfiles
 	url = https://github.com/isayni/dotfiles
+[submodule "airootfs/usr/local/share/dmenu"]
+	path = airootfs/usr/local/share/dmenu
+	url = https://github.com/isayni/dmenu
