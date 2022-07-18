@@ -13,3 +13,6 @@
 [submodule "airootfs/usr/local/share/shell-scripts"]
 	path = airootfs/usr/local/share/shell-scripts
 	url = https://github.com/isayni/shell-scripts
+[submodule "airootfs/usr/local/share/Marwaita-Mint"]
+	path = airootfs/usr/local/share/Marwaita-Mint
+	url = https://github.com/darkomarko42/Marwaita-Mint
