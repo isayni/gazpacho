@@ -7,7 +7,7 @@ my custom build of Arch Linux installation in a Live ISO version
 
 ### to build it yourself
 ```bash
-git clone https://github.com/isayni/gazpacho
+git clone --recurse-submodules https://github.com/isayni/gazpacho
 cd gazpacho
 mkarchiso -v -w /tmp/gazpacho .
 
